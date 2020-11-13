@@ -1,0 +1,6 @@
+{
+  "env": {
+    "MONGO_ATLAS_PW": "dbUser",
+    "JTW_KEY": "this_must_be_long"
+  }
+}
