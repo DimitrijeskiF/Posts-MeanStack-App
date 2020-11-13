@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose')
 
 const postRouter = require('../backend/routes/posts');
-const userRoutes = require ('./routes/user');
+const userRoutes = require('./routes/user');
 const { RESOURCE_CACHE_PROVIDER } = require('@angular/platform-browser-dynamic');
 
 const app = express();
@@ -29,7 +29,9 @@ mongoose
     });
 
 app.use(bodyParser.json())
-app.use("/images", express.static(path.join("backend/images")))
+app.use("/images", express.static(path.join(__dirname,"images")))
+app.use("/", express.static(path.join(__dirname, 'angular')))
+
 
 app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
@@ -40,6 +42,9 @@ app.use((req, res, next) => {
     next()
 })
 app.use('/api/posts', postRouter);
-app.use('/api/user', userRoutes)
+app.use('/api/user', userRoutes);
+app.use((req, res, next) => {
+    res.sendFile(path.join(__dirname, "angular", "index.html"))
+});
 
 module.exports = app;
