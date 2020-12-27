@@ -12,25 +12,24 @@ The main idea of this application is to show how CRUD (Create, Read, Update, Del
 
 First Look of App
 <img src="https://i.ibb.co/ZXHX49j/First-Look.png" />
-https://ibb.co/vqsqy9F
+
 
 Validating Data
-https://ibb.co/jymNJkq
-https://ibb.co/ng5BTjV
-https://ibb.co/ZNVyJW0
+<img src="https://i.ibb.co/N95vT2f/Validating1.png" />
+<img src="https://i.ibb.co/dWztSD3/Validating2.png" />
+<img src="https://i.ibb.co/GF0gJcq/Validating-3.png" />
 
 Error Handling
-https://ibb.co/TKTKQ8V
+<img src="https://i.ibb.co/gv7v0T5/Handling-Errors.png" />
 
 Creating Post
-https://ibb.co/QNhhNS0
+<img src="https://i.ibb.co/YkJJkng/Create-Post.png" />
 
 Updating Post
-https://ibb.co/gVyhqDg
+<img src="https://i.ibb.co/m8JgZHz/Updating-Post.png" />
 
 User stored in Database
-https://ibb.co/g4jg9HQ
+<img src="https://i.ibb.co/xFC5LPw/User-in-Database.png" />
 
 Deleteing Post
-https://ibb.co/18ptdrd
-
+<img src="https://i.ibb.co/MMjxGcG/Delete-Post.png" />
