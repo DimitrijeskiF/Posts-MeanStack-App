@@ -7,3 +7,27 @@ The main idea of this application is to show how CRUD (Create, Read, Update, Del
 
 
 
+
+First Look of App
+https://ibb.co/vqsqy9F
+
+Validating Data
+https://ibb.co/jymNJkq
+https://ibb.co/ng5BTjV
+https://ibb.co/ZNVyJW0
+
+Error Handling
+https://ibb.co/TKTKQ8V
+
+Creating Post
+https://ibb.co/QNhhNS0
+
+Updating Post
+https://ibb.co/gVyhqDg
+
+User stored in Database
+https://ibb.co/g4jg9HQ
+
+Deleteing Post
+https://ibb.co/18ptdrd
+
